@@ -1,4 +1,6 @@
 export { default as Text } from './atoms/text.svelte' 
 export { default as Link } from './atoms/link.svelte' 
 export { default as ContainerCard } from './molecules/containerCard.svelte' 
+export { default as Li } from './molecules/li.svelte' 
 export { default as ContainerCards } from './organisms/containerCards.svelte'
+export { default as Ul } from './organisms/ul.svelte'
