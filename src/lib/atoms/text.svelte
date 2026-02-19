@@ -3,7 +3,7 @@
 </script>
 
 <svelte:element this={as} {...restProps}>
-    {@render children?.()}
+    Svelte:element
 </svelte:element>
 
 <style>
@@ -14,10 +14,6 @@
 
     h2{
         text-align: center;
-    }
-
-    p{
-      margin: 1em;
-      text-align: center;
+        margin: 0;
     }
 </style>
